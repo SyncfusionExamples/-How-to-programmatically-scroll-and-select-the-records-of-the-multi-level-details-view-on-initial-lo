@@ -4,7 +4,7 @@
 
 This sample illustrates how to programmatically scroll and select the records of the multi-level DetailsView on initial loading in WPF DataGrid.
 
-You can select the records of the Master-DetailsView programmatically on initial loading by setting the corresponding child grid row index to the SfDataGrid.SelectedIndex property. This can be achieved by passing the row index of both the parent and child grids. Before setting the SelectedIndex to childgrid, you need to check whether the corresponding parent record is in the expanded or collapsed state. When it is expanded, you can directly select the records of the child grid; otherwise, you need to expand it manually by using the SfDataGrid.ExpandDetailsViewAt helper method. You can also bring the corresponding DetailsView grid into the view by using the DetailsViewManager.BringToView helper method. This is demonstrated in the following code example.
+In [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid), you can select the records of the Master-DetailsView programmatically on initial loading by setting the corresponding child grid row index to the SfDataGrid.SelectedIndex property. This can be achieved by passing the row index of both the parent and child grids. Before setting the SelectedIndex to childgrid, you need to check whether the corresponding parent record is in the expanded or collapsed state. When it is expanded, you can directly select the records of the child grid; otherwise, you need to expand it manually by using the SfDataGrid.ExpandDetailsViewAt helper method. You can also bring the corresponding DetailsView grid into the view by using the DetailsViewManager.BringToView helper method. This is demonstrated in the following code example.
 
 
 ```Xaml
