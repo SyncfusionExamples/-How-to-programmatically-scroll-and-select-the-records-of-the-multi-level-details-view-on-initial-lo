@@ -123,5 +123,8 @@ private void ExpandAndSelectDetailsView(SfDataGrid dataGrid, int parentRowIndex,
 
 ```
 
+KB article - [How to programmatically scroll and select the records of the multi-level DetailsView on initial loading in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/12035/how-to-programmatically-scroll-and-select-the-records-of-the-multi-level-detailsview-on)
+
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
